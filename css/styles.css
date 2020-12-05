@@ -163,6 +163,18 @@ header {
     margin-bottom: 0px;
 }
 
+.advantages-icon {
+    background-color: var(--secondary-bg-color);
+    margin-bottom: 30px;
+    height: 120px;
+    padding: 25px 100px;
+}
+
+/* если все-таки марджин надо у свг */
+/* .advantages-svg {
+    margin: 25px 100px;
+} */
+
 .advantages-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -435,3 +447,4 @@ address {
     text-decoration: none;
     color: currentColor;
 }   
+
