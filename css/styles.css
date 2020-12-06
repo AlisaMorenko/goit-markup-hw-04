@@ -8,6 +8,7 @@
     --secondary-bg-color: #F5F4FA;
     --footer-color: #2F303A;
     --border-color: #eeeeee;
+    --icon-color: #afb1b8;
 }
 
 
@@ -64,6 +65,7 @@ img {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    outline: none;
 }
 
 .main-logo {
@@ -123,6 +125,7 @@ header {
 .contacts .link:hover,
 .contacts .link:focus {
     color: var(--accent-color);
+    outline: none;
 }
 
 /* стилизация секций блока main */
@@ -167,13 +170,11 @@ header {
     background-color: var(--secondary-bg-color);
     margin-bottom: 30px;
     height: 120px;
-    padding: 25px 100px;
-}
 
-/* если все-таки марджин надо у свг */
-/* .advantages-svg {
-    margin: 25px 100px;
-} */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .advantages-title {
     color: var(--title-text-color);
@@ -266,7 +267,39 @@ header {
     line-height: 1.19;
 
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 16px;
+}
+
+
+.networks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: none; */
+    width: 44px;
+    height: 44px;
+    color: var(--icon-color);
+    border-radius: 50%;
+}
+
+.social-links:hover,
+.social-links:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    outline: none;
+}
+
+.soc-links-svg {
+    fill: currentColor;
+}
+
+.soc-links-svg:hover {
+    fill: currentColor;
 }
 
 /* стилицация героя */
@@ -381,6 +414,42 @@ address {
 
 .mail {
     margin-bottom: 9px;
+}
+
+/* ссылки в футере */
+.join-us {
+    line-height: 1.17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.footer-networks {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--icon-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.social-links:hover,
+.social-links:focus {
+    background-color: var(--accent-color);
+    outline: none;
+}
+
+.footer-container {
+    align-items: baseline;
 }
 
 /* стилизация секции galary на стр портфолио */
