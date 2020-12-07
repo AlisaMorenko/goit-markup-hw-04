@@ -118,6 +118,21 @@ header {
 .contacts .link {
     color: var(--primary-text-color);
     text-decoration: none;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-contacs-svg,
+.header-contacs-svg {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.contacts p {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .nav .link:hover, 
@@ -294,10 +309,7 @@ header {
     outline: none;
 }
 
-.soc-links-svg {
-    fill: currentColor;
-}
-
+.soc-links-svg,
 .soc-links-svg:hover {
     fill: currentColor;
 }
