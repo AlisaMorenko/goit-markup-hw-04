@@ -144,8 +144,8 @@ header {
 }
 
 /* стилизация секций блока main */
-/* стилизация заголовков секций */
 
+/* стилизация заголовков секций */
 .work-title, 
 .staff-title,
 .clients-title {
@@ -329,7 +329,7 @@ header {
     flex-wrap: wrap;
 }
 
-.cl-li {
+.clients-item {
     width: 170px;
     height: 90px;
     border: 1px solid var(--icon-color);
@@ -339,7 +339,7 @@ header {
     
 }
 
-.clients-item {
+.clients-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,16 +348,16 @@ header {
     color: var(--icon-color);    
 }
 
-.cl-li:nth-child(6n) {
+.clients-item:nth-child(6n) {
     margin-right: 0px;
 }
 
-.cl-li:nth-last-child(-n+6) {
+.clients-item:nth-last-child(-n+6) {
     margin-bottom: 0px;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-link:hover,
+.clients-link:focus {
     color: var(--accent-color);
     outline: none;
 }
@@ -587,7 +587,13 @@ address {
 }
 
 .galary-link {
+    display: block;
     text-decoration: none;
     color: currentColor;
 }   
 
+.galary-link:hover,
+.galary-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    outline: none;
+}
