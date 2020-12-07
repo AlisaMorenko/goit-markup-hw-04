@@ -417,12 +417,28 @@ address {
 }
 
 /* ссылки в футере */
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.adress {
+    margin-right: 70px;
+}
+
+.container-join-us {
+    display: block;
+}
+
 .join-us {
     line-height: 1.17px;
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
+
+    display: inline-block;
 }
 
 .footer-networks {
@@ -448,9 +464,11 @@ address {
     outline: none;
 }
 
-.footer-container {
-    align-items: baseline;
-}
+
+
+
+
+
 
 /* стилизация секции galary на стр портфолио */
 
