@@ -298,7 +298,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-decoration: none; */
     width: 44px;
     height: 44px;
     color: var(--icon-color);
@@ -308,7 +307,7 @@ header {
 .social-links:hover,
 .social-links:focus {
     background-color: var(--accent-color);
-    color: var(-- );
+    color: var(--primary-white-color);
     outline: none;
 }
 
@@ -494,7 +493,7 @@ address {
 }
 
 .join-us {
-    line-height: 1.17px;
+    line-height: 1.17;
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 0px;
@@ -509,7 +508,7 @@ address {
     width: 206px;
 }
 
-.social-links {
+.footer-social-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -520,8 +519,8 @@ address {
     border-radius: 50%;
 }
 
-.social-links:hover,
-.social-links:focus {
+.footer-social-links:hover,
+.footer-social-links:focus {
     background-color: var(--accent-color);
     outline: none;
 }
